@@ -1,7 +1,32 @@
 
-Implemented features from the task document. C++, server authoritative, GAS throughout.
+Implemented features from the task document. C++, server authoritative, GAS throughout. Built in Unreal Engine 5.7
 
 ---
+
+## Getting started (Visual Studio & Rider)
+
+1. Clone the repo:
+```bash
+   git clone https://github.com/Rithvik-gamedev/AVTask.git
+```
+2. Right-click the `.uproject` → **Generate Visual Studio project files**. On Rider, just
+   right-click the `.uproject` and open it directly — Rider picks up the rest.
+3. Build:
+   - VS 2022: Open the `.sln`, set config to `Development Editor | Win64`, hit `Ctrl+Shift+B`.
+   - Rider: Open the project, let it sync with UE, then `Ctrl+B`.
+4. Open the `.uproject` in UE 5.7 and hit Play.
+
+## Controls
+
+The project uses the Enhanced Input System. Default bindings:
+
+| Action | Input |
+|--------|-------|
+| Move | W A S D |
+| Look | Mouse |
+| Jump | Space |
+| Attack | Left Mouse Button |
+| Dash | Left Shift / Right Mouse Button |
 
 ## Part 1 - Core character & combat
 
